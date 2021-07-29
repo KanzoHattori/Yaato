@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello I am Yato, the 5 cent god
-I am a group management bot which can help you to manage group easy You can see my cmds in help button[.](https://telegra.ph/file/f7673dbfdf2018a1aa30e.jpg)
+Hello I am Yuno , The Weilder of the fooking four leaf clover
+I am a group management bot which can help you to manage group easy You can see my cmds in help button[.](https://telegra.ph/file/ba79ba1a593c61ac36337.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝕐𝕒𝕥𝕠", url="t.me/Calamity_robot?startgroup=true"),
+            text="ɎɄ₦Ø", url="t.me/Yuno_Testbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📚COMMANDS", callback_data="help_back"),
@@ -93,7 +93,7 @@ buttons = [
             text="👥SUPPORT👥", url="https://t.me/Yato_Support_Chat"),
     ],
     [  
-        InlineKeyboardButton(text="Anime chat", url="https://t.me/The_phantom_troupe"),
+        InlineKeyboardButton(text="Anime chat", url="https://t.me/anime_chat_ocean"),
     ], 
     
 ]
@@ -104,7 +104,7 @@ HELP_STRINGS = """
 *YATO has many special features in it*
 *CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Yato*
 🔥 *All commands can either be used with* `/` *or* `!`.
-🔥 *If you facing any issue or find any bugs in any command then you can report it in @Yato_Support_Chat* [.](https://telegra.ph/file/f7673dbfdf2018a1aa30e.jpg)
+🔥 *If you facing any issue or find any bugs in any command then you can report it in @Yato_Support_Chat* [.](https://telegra.ph/file/ba79ba1a593c61ac36337.jpg)
 """
 
 
@@ -353,16 +353,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm * Yato *, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm * Yuno *, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Yato licensed under the GNU General Public License v3.0_
+                 \n_Yuno licensed under the GNU General Public License v3.0_
                  Here is the [Bot-protocol](https://t.me/BotProtocol).
-                 If you have any question about Yato, let us know at @Yato_support_chat.""",
+                 If you have any question about Yuno, let us know at @Yato_support_chat.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
